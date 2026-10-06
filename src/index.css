@@ -31,8 +31,8 @@
   --card-hover-shadow: 0 16px 36px rgba(49, 12, 19, 0.14);
   
   /* Typography */
-  --font-body: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Be Vietnam Pro', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Roboto', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-script: 'Dancing Script', 'Satisfy', 'Caveat', cursive;
   --gold-accent: #dfa243;
   --gold-light: #f5c76c;
@@ -1060,7 +1060,7 @@ p,
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: var(--font-heading);
   font-style: italic;
   color: #1e3a2d;
   line-height: 1.15;
