@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
         <div className="why-overlay"></div>
       </div>
 
-      <div className="container relative-z">
+      <div className="why-container relative-z">
         <div className="why-grid">
           <div className="why-left reveal-slide-left">
             <span className="why-subtitle-tag">TẠI SAO CHỌN NGỌC SANG?</span>
