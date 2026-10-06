@@ -1,0 +1,39 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dc87" />
+      <stop offset="35%" stop-color="#d4af37" />
+      <stop offset="70%" stop-color="#aa7c11" />
+      <stop offset="100%" stop-color="#e5c158" />
+    </linearGradient>
+    <linearGradient id="goldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0b3" />
+      <stop offset="50%" stop-color="#e5be50" />
+      <stop offset="100%" stop-color="#c2941b" />
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- Royal Crown -->
+    <g transform="translate(30, 4) scale(0.6)">
+      <circle cx="10" cy="18" r="4" fill="url(#goldGrad)" />
+      <circle cx="32" cy="10" r="4" fill="url(#goldGrad)" />
+      <circle cx="50" cy="6" r="4.5" fill="url(#goldGrad)" />
+      <circle cx="68" cy="10" r="4" fill="url(#goldGrad)" />
+      <circle cx="90" cy="18" r="4" fill="url(#goldGrad)" />
+      <path d="M10 22L20 46H80L90 22L70 34L50 14L30 34L10 22Z" fill="url(#goldGrad)" stroke="url(#goldGradLight)" stroke-width="1.5" />
+      <path d="M20 46Q50 52 80 46L82 54Q50 60 18 54Z" fill="url(#goldGrad)" />
+      <circle cx="35" cy="42" r="2.5" fill="#fff" opacity="0.8" />
+      <circle cx="50" cy="40" r="3" fill="#fff" opacity="0.8" />
+      <circle cx="65" cy="42" r="2.5" fill="#fff" opacity="0.8" />
+    </g>
+
+    <!-- Outer Circular Crest -->
+    <circle cx="60" cy="72" r="40" stroke="url(#goldGrad)" stroke-width="5" fill="none" stroke-dasharray="210 42" stroke-dashoffset="25" />
+    <circle cx="60" cy="72" r="34" stroke="url(#goldGradLight)" stroke-width="1.5" fill="none" opacity="0.8" />
+
+    <!-- NS Monogram -->
+    <path d="M45 56V88M45 58L68 86M68 56V88" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M74 61C74 55 64 53 58 55C50 58 48 68 59 72C72 76 72 87 62 89C54 90 46 86 46 80" stroke="url(#goldGradLight)" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
